@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 100vh; /* 100 ühikut (peaaegu 100%), et hoiaks akent ühes kohas*/
+}
+
+.chat-container {
+    position: absolute;
+    bottom: 0; /*ei ole ruumi alumise serva ja elemendi vahel*/
+    right: 0;
+}
